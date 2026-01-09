@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Md. Esrat Hossan — Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+      body { font-family: 'Inter', 'Poppins', sans-serif; }
+      .gradient-text {
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+      }
+      .card-hover {
+        transition: all 0.3s ease;
+      }
+      .card-hover:hover {
+        transform: translateY(-8px);
+        box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+      }
+  </style>
+</head>
+
+<body class="bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-50 text-gray-900">
+
+<!-- NAVBAR -->
+<header class="w-full bg-white/80 backdrop-blur-md fixed top-0 z-50 shadow-lg border-b border-gray-200">
+  <div class="max-w-7xl mx-auto flex justify-between items-center px-6 py-4">
+    <h1 class="text-2xl font-bold gradient-text">Esrat Hossan</h1>
+    <nav class="hidden md:flex space-x-8 font-medium text-gray-700">
+      <a href="#about" class="hover:text-indigo-600 transition-colors duration-300">About</a>
+      <a href="#skills" class="hover:text-indigo-600 transition-colors duration-300">Skills</a>
+      <a href="#projects" class="hover:text-indigo-600 transition-colors duration-300">Projects</a>
+      <a href="#research" class="hover:text-indigo-600 transition-colors duration-300">Research</a>
+      <a href="#contact" class="hover:text-indigo-600 transition-colors duration-300">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="max-w-7xl mx-auto flex flex-col md:flex-row items-center pt-32 px-6 pb-24 gap-12">
+  <div class="relative group">
+    <div class="absolute -inset-1 bg-gradient-to-r from-purple-600 to-blue-600 rounded-2xl blur opacity-25 group-hover:opacity-50 transition duration-500"></div>
+    <img src="assets/images/Esrat_hossan.png" alt="Profile"
+         class="relative w-72 h-72 object-cover rounded-2xl shadow-2xl border-4 border-white ring-2 ring-indigo-100">
+  </div>
+  <div class="md:ml-10 mt-6 md:mt-0 text-center md:text-left">
+    <h2 class="text-5xl md:text-6xl font-bold gradient-text mb-4">Md. Esrat Hossan</h2>
+    <p class="mt-3 text-xl text-gray-700 font-medium">Fresh Graduate | AI & Machine Learning Research | Data Analyst</p>
+    <p class="mt-4 text-gray-600 max-w-2xl">Passionate about leveraging AI and data science to drive innovation and solve real-world problems.</p>
+    <div class="mt-8 flex gap-4 justify-center md:justify-start flex-wrap">
+      <a href="https://www.linkedin.com/in/esrat-hossan-3673571b4" target="_blank"
+         class="px-8 py-3 rounded-lg bg-gradient-to-r from-blue-600 to-blue-700 text-white font-semibold shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300">LinkedIn</a>
+      <a href="https://github.com/MdEsrat" target="_blank"
+         class="px-8 py-3 rounded-lg bg-gradient-to-r from-gray-800 to-gray-900 text-white font-semibold shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300">GitHub</a>
+      <a href="assets/Md.EsratHossan_CV.pdf" download
+         class="px-8 py-3 rounded-lg bg-gradient-to-r from-emerald-600 to-teal-700 text-white font-semibold shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300 flex items-center gap-2">
+         <span>📄</span>
+         <span>Download CV</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="max-w-7xl mx-auto px-6 py-20">
+  <div class="text-center mb-12">
+    <h3 class="text-4xl font-bold gradient-text mb-4">Professional Summary</h3>
+    <div class="w-24 h-1 bg-gradient-to-r from-purple-600 to-blue-600 mx-auto rounded-full"></div>
+  </div>
+  <div class="bg-white/60 backdrop-blur-sm p-10 rounded-2xl shadow-xl border border-gray-100 card-hover">
+    <p class="text-gray-700 leading-8 text-lg text-center max-w-5xl mx-auto">
+      Dedicated to advancing Bangladesh's technology and data-driven economy by creating innovative
+      software solutions and enhancing the practical applications of AI and data analytics. Committed
+      to facilitating digital transformation across local industries through efficient, ethical, and impactful
+      computing practices. Focused on conducting meaningful research and publishing high-quality work
+      in artificial intelligence, data science, and machine learning to elevate Bangladesh's role in global
+      technological innovation.
+    </p>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="max-w-7xl mx-auto px-6 py-20">
+  <div class="text-center mb-12">
+    <h3 class="text-4xl font-bold gradient-text mb-4">Skills & Expertise</h3>
+    <div class="w-24 h-1 bg-gradient-to-r from-purple-600 to-blue-600 mx-auto rounded-full"></div>
+  </div>
+  <div class="grid md:grid-cols-3 gap-6">
+
+    <div class="bg-gradient-to-br from-purple-50 to-white p-8 rounded-2xl shadow-xl border border-purple-100 card-hover">
+      <div class="w-14 h-14 bg-gradient-to-br from-purple-500 to-purple-600 rounded-xl flex items-center justify-center mb-4 shadow-lg">
+        <span class="text-white text-2xl font-bold">💻</span>
+      </div>
+      <h4 class="font-bold text-xl mb-3 text-gray-800">Programming</h4>
+      <p class="text-gray-600 font-medium">Python, C/C++</p>
+    </div>
+
+    <div class="bg-gradient-to-br from-blue-50 to-white p-8 rounded-2xl shadow-xl border border-blue-100 card-hover">
+      <div class="w-14 h-14 bg-gradient-to-br from-blue-500 to-blue-600 rounded-xl flex items-center justify-center mb-4 shadow-lg">
+        <span class="text-white text-2xl font-bold">🎨</span>
+      </div>
+      <h4 class="font-bold text-xl mb-3 text-gray-800">Frontend</h4>
+      <p class="text-gray-600 font-medium">HTML, CSS, JavaScript, Bootstrap, Tailwind</p>
+    </div>
+
+    <div class="bg-gradient-to-br from-indigo-50 to-white p-8 rounded-2xl shadow-xl border border-indigo-100 card-hover">
+      <div class="w-14 h-14 bg-gradient-to-br from-indigo-500 to-indigo-600 rounded-xl flex items-center justify-center mb-4 shadow-lg">
+        <span class="text-white text-2xl font-bold">🛠️</span>
+      </div>
+      <h4 class="font-bold text-xl mb-3 text-gray-800">Tools</h4>
+      <p class="text-gray-600 font-medium">MS Office, GitHub, Colab, VSCode</p>
+    </div>
+
+    <div class="bg-gradient-to-br from-emerald-50 to-white p-8 rounded-2xl shadow-xl border border-emerald-100 card-hover">
+      <div class="w-14 h-14 bg-gradient-to-br from-emerald-500 to-emerald-600 rounded-xl flex items-center justify-center mb-4 shadow-lg">
+        <span class="text-white text-2xl font-bold">🗄️</span>
+      </div>
+      <h4 class="font-bold text-xl mb-3 text-gray-800">Database</h4>
+      <p class="text-gray-600 font-medium">MySQL</p>
+    </div>
+
+    <div class="bg-gradient-to-br from-pink-50 to-white p-8 rounded-2xl shadow-xl border border-pink-100 card-hover">
+      <div class="w-14 h-14 bg-gradient-to-br from-pink-500 to-pink-600 rounded-xl flex items-center justify-center mb-4 shadow-lg">
+        <span class="text-white text-2xl font-bold">🌐</span>
+      </div>
+      <h4 class="font-bold text-xl mb-3 text-gray-800">Languages</h4>
+      <p class="text-gray-600 font-medium">Bengali (Native), English (Fluent)</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- EDUCATION -->
+<section class="max-w-7xl mx-auto px-6 py-20">
+  <div class="text-center mb-12">
+    <h3 class="text-4xl font-bold gradient-text mb-4">Education</h3>
+    <div class="w-24 h-1 bg-gradient-to-r from-purple-600 to-blue-600 mx-auto rounded-full"></div>
+  </div>
+  <div class="space-y-6">
+    <div class="bg-white/60 backdrop-blur-sm p-8 rounded-2xl shadow-xl border-l-4 border-indigo-500 card-hover">
+      <div class="flex items-start gap-4">
+        <div class="w-12 h-12 bg-gradient-to-br from-indigo-500 to-purple-600 rounded-full flex items-center justify-center flex-shrink-0">
+          <span class="text-white text-xl font-bold">🎓</span>
+        </div>
+        <div>
+          <h4 class="font-bold text-xl text-gray-800">B.Sc. in Computer Science & Engineering</h4>
+          <p class="text-gray-700 font-medium mt-1">Daffodil International University</p>
+          <p class="text-gray-600 mt-2">2022–2025 | CGPA: <span class="text-indigo-600 font-semibold">3.64</span> </p>
+        </div>
+      </div>
+    </div>
+    <div class="bg-white/60 backdrop-blur-sm p-8 rounded-2xl shadow-xl border-l-4 border-blue-500 card-hover">
+      <div class="flex items-start gap-4">
+        <div class="w-12 h-12 bg-gradient-to-br from-blue-500 to-cyan-600 rounded-full flex items-center justify-center flex-shrink-0">
+          <span class="text-white text-xl font-bold">📚</span>
+        </div>
+        <div>
+          <h4 class="font-bold text-xl text-gray-800">Higher Secondary Certificate (Science)</h4>
+          <p class="text-gray-700 font-medium mt-1">Hazera Toju Degree College</p>
+          <p class="text-gray-600 mt-2">2020 | GPA: <span class="text-blue-600 font-semibold">5.00</span></p>
+        </div>
+      </div>
+    </div>
+    <div class="bg-white/60 backdrop-blur-sm p-8 rounded-2xl shadow-xl border-l-4 border-purple-500 card-hover">
+      <div class="flex items-start gap-4">
+        <div class="w-12 h-12 bg-gradient-to-br from-purple-500 to-pink-600 rounded-full flex items-center justify-center flex-shrink-0">
+          <span class="text-white text-xl font-bold">📖</span>
+        </div>
+        <div>
+          <h4 class="font-bold text-xl text-gray-800">Secondary School Certificate (Science)</h4>
+          <p class="text-gray-700 font-medium mt-1">Banskhali Adarsha High School</p>
+          <p class="text-gray-600 mt-2">2018 | GPA: <span class="text-purple-600 font-semibold">5.00</span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="max-w-7xl mx-auto px-6 py-20">
+  <div class="text-center mb-12">
+    <h3 class="text-4xl font-bold gradient-text mb-4">Featured Projects</h3>
+    <div class="w-24 h-1 bg-gradient-to-r from-purple-600 to-blue-600 mx-auto rounded-full"></div>
+  </div>
+  <div class="bg-gradient-to-br from-white to-indigo-50 p-10 rounded-2xl shadow-2xl border border-indigo-100 card-hover">
+    <div class="flex items-start gap-4 mb-4">
+      <div class="w-16 h-16 bg-gradient-to-br from-indigo-500 to-purple-600 rounded-2xl flex items-center justify-center flex-shrink-0 shadow-lg">
+        <span class="text-white text-3xl font-bold">🎯</span>
+      </div>
+      <div class="flex-1">
+        <h4 class="font-bold text-2xl text-gray-800">Student Academic Hub</h4>
+        <p class="text-gray-700 mt-3 leading-7 text-lg">
+          Comprehensive student management system featuring feedback mechanisms, result viewing, file uploads, and seamless Google Authentication integration for enhanced security and user experience.
+        </p>
+        <a class="inline-flex items-center gap-2 mt-6 px-6 py-3 bg-gradient-to-r from-indigo-600 to-purple-600 text-white font-semibold rounded-lg shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300"
+           href="https://github.com/MdEsrat/student-academic-hub" target="_blank">
+          <span>View on GitHub</span>
+          <span>→</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- RESEARCH -->
+<section id="research" class="max-w-7xl mx-auto px-6 py-20">
+  <div class="text-center mb-12">
+    <h3 class="text-4xl font-bold gradient-text mb-4">Research Experience</h3>
+    <div class="w-24 h-1 bg-gradient-to-r from-purple-600 to-blue-600 mx-auto rounded-full"></div>
+  </div>
+  <div class="grid md:grid-cols-2 gap-6">
+    <div class="bg-white/60 backdrop-blur-sm p-8 rounded-2xl shadow-xl border border-red-100 card-hover">
+      <div class="flex items-start gap-4">
+        <div class="w-12 h-12 bg-gradient-to-br from-red-500 to-pink-600 rounded-xl flex items-center justify-center flex-shrink-0">
+          <span class="text-white text-xl">❤️</span>
+        </div>
+        <div>
+          <h4 class="font-bold text-xl text-gray-800 mb-2">Heart Attack Risk Detection</h4>
+          <p class="text-gray-700 mb-3">Advanced ML model achieving <span class="text-red-600 font-bold">96.57% accuracy</span> using SHAP/LIME and Stacking Ensemble techniques.</p>
+          <span class="inline-block px-3 py-1 bg-red-100 text-red-700 text-sm font-semibold rounded-full">Submitted to CMT</span>
+        </div>
+      </div>
+    </div>
+    
+    <div class="bg-white/60 backdrop-blur-sm p-8 rounded-2xl shadow-xl border border-blue-100 card-hover">
+      <div class="flex items-start gap-4">
+        <div class="w-12 h-12 bg-gradient-to-br from-blue-500 to-cyan-600 rounded-xl flex items-center justify-center flex-shrink-0">
+          <span class="text-white text-xl">🦠</span>
+        </div>
+        <div>
+          <h4 class="font-bold text-xl text-gray-800 mb-2">Interpretable Thyroid Diagnosis</h4>
+          <p class="text-gray-700 mb-3">Breakthrough interpretable AI system with <span class="text-blue-600 font-bold">99.5% accuracy</span> using SHAP/LIME for clinical transparency.</p>
+          <span class="inline-block px-3 py-1 bg-blue-100 text-blue-700 text-sm font-semibold rounded-full">Under Journal Review</span>
+        </div>
+      </div>
+    </div>
+    
+    <div class="bg-white/60 backdrop-blur-sm p-8 rounded-2xl shadow-xl border border-purple-100 card-hover">
+      <div class="flex items-start gap-4">
+        <div class="w-12 h-12 bg-gradient-to-br from-purple-500 to-indigo-600 rounded-xl flex items-center justify-center flex-shrink-0">
+          <span class="text-white text-xl">🧠</span>
+        </div>
+        <div>
+          <h4 class="font-bold text-xl text-gray-800 mb-2">Brain MRI Tumor Classification</h4>
+          <p class="text-gray-700 mb-3">State-of-the-art deep learning model achieving <span class="text-purple-600 font-bold">99.56% accuracy</span> with Grad-CAM visualization.</p>
+          <span class="inline-block px-3 py-1 bg-purple-100 text-purple-700 text-sm font-semibold rounded-full">Submitted to IDAA 2025</span>
+        </div>
+      </div>
+    </div>
+    
+    <div class="bg-white/60 backdrop-blur-sm p-8 rounded-2xl shadow-xl border border-green-100 card-hover">
+      <div class="flex items-start gap-4">
+        <div class="w-12 h-12 bg-gradient-to-br from-green-500 to-emerald-600 rounded-xl flex items-center justify-center flex-shrink-0">
+          <span class="text-white text-xl">💰</span>
+        </div>
+        <div>
+          <h4 class="font-bold text-xl text-gray-800 mb-2">Remittance Impact on Bangladeshi Economy</h4>
+          <p class="text-gray-700 mb-3">Comprehensive analysis of economic impacts with published findings.</p>
+          <span class="inline-block px-3 py-1 bg-green-100 text-green-700 text-sm font-semibold rounded-full">DOI: 10.1310/RG.2.2.18002.06081</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CERTIFICATIONS -->
+<section class="max-w-7xl mx-auto px-6 py-20">
+  <div class="text-center mb-12">
+    <h3 class="text-4xl font-bold gradient-text mb-4">Certifications</h3>
+    <div class="w-24 h-1 bg-gradient-to-r from-purple-600 to-blue-600 mx-auto rounded-full"></div>
+  </div>
+  <div class="grid md:grid-cols-2 gap-6">
+    <div class="bg-white/60 backdrop-blur-sm p-8 rounded-2xl shadow-xl border border-orange-100 card-hover">
+      <div class="flex items-start gap-4">
+        <div class="w-12 h-12 bg-gradient-to-br from-orange-500 to-red-600 rounded-xl flex items-center justify-center flex-shrink-0">
+          <span class="text-white text-xl">🏆</span>
+        </div>
+        <div>
+          <h4 class="font-bold text-xl text-gray-800 mb-2">Professional Web Design & WordPress</h4>
+          <p class="text-gray-600 font-medium">UYLAB</p>
+          <span class="inline-block mt-2 px-3 py-1 bg-orange-100 text-orange-700 text-sm font-semibold rounded-full">2024</span>
+        </div>
+      </div>
+    </div>
+    
+    <div class="bg-white/60 backdrop-blur-sm p-8 rounded-2xl shadow-xl border border-red-100 card-hover">
+      <div class="flex items-start gap-4">
+        <div class="w-12 h-12 bg-gradient-to-br from-red-500 to-pink-600 rounded-xl flex items-center justify-center flex-shrink-0">
+          <span class="text-white text-xl">🗄️</span>
+        </div>
+        <div>
+          <h4 class="font-bold text-xl text-gray-800 mb-2">Oracle Database Course</h4>
+          <p class="text-gray-600 font-medium">ICT Division & Daffodil International University</p>
+          <span class="inline-block mt-2 px-3 py-1 bg-red-100 text-red-700 text-sm font-semibold rounded-full">2025</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="max-w-7xl mx-auto px-6 py-20">
+  <div class="text-center mb-12">
+    <h3 class="text-4xl font-bold gradient-text mb-4">Get In Touch</h3>
+    <div class="w-24 h-1 bg-gradient-to-r from-purple-600 to-blue-600 mx-auto rounded-full"></div>
+    <p class="mt-6 text-gray-600 text-lg">Feel free to reach out for collaborations or just a friendly chat!</p>
+  </div>
+  <div class="grid md:grid-cols-3 gap-6">
+    <div class="bg-white/60 backdrop-blur-sm p-8 rounded-2xl shadow-xl border border-blue-100 text-center card-hover">
+      <div class="w-16 h-16 bg-gradient-to-br from-blue-500 to-blue-600 rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg">
+        <span class="text-white text-2xl">📧</span>
+      </div>
+      <h4 class="font-bold text-lg text-gray-800 mb-2">Email</h4>
+      <a href="mailto:esrathossan99@gmail.com" class="text-blue-600 hover:text-blue-800 font-medium transition-colors">esrathossan99@gmail.com</a>
+    </div>
+    
+    <div class="bg-white/60 backdrop-blur-sm p-8 rounded-2xl shadow-xl border border-green-100 text-center card-hover">
+      <div class="w-16 h-16 bg-gradient-to-br from-green-500 to-green-600 rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg">
+        <span class="text-white text-2xl">📱</span>
+      </div>
+      <h4 class="font-bold text-lg text-gray-800 mb-2">Phone</h4>
+      <a href="tel:+8801872190476" class="text-green-600 hover:text-green-800 font-medium transition-colors">+880 1872-190476</a>
+    </div>
+    
+    <div class="bg-white/60 backdrop-blur-sm p-8 rounded-2xl shadow-xl border border-purple-100 text-center card-hover">
+      <div class="w-16 h-16 bg-gradient-to-br from-purple-500 to-purple-600 rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg">
+        <span class="text-white text-2xl">📍</span>
+      </div>
+      <h4 class="font-bold text-lg text-gray-800 mb-2">Location</h4>
+      <p class="text-purple-600 font-medium">Dhaka, Bangladesh</p>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="bg-gradient-to-r from-gray-900 via-indigo-900 to-purple-900 text-white py-12 mt-20">
+  <div class="max-w-7xl mx-auto px-6 text-center">
+    <h2 class="text-2xl font-bold mb-4">Md. Esrat Hossan</h2>
+    <p class="text-gray-300 mb-6">AI Researcher | Data Analyst | Problem Solver</p>
+    <div class="flex justify-center gap-6 mb-8">
+      <a href="https://www.linkedin.com/in/esrat-hossan-3673571b4" target="_blank" 
+         class="w-12 h-12 bg-white/10 hover:bg-white/20 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110">
+        <span class="text-2xl">💼</span>
+      </a>
+      <a href="https://github.com/MdEsrat" target="_blank" 
+         class="w-12 h-12 bg-white/10 hover:bg-white/20 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110">
+        <span class="text-2xl">💻</span>
+      </a>
+    </div>
+    <div class="border-t border-white/20 pt-6">
+      <p class="text-gray-400">© 2026 Md. Esrat Hossan — All Rights Reserved</p>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
